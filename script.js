@@ -6,4 +6,6 @@ console.log(people)
 people.push("Elena")
 people.splice(1,0,"Reneta")
 console.log(people)
-
+people.forEach(function(a,b){
+    console.log(a,b)
+})
